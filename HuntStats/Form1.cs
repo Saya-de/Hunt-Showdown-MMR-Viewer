@@ -38,12 +38,16 @@ namespace HuntStats
             XmlDocument doc = new XmlDocument();
             try
             {
-                doc.Load(@"D:\Steam\steamapps\common\Hunt Showdown\user\profiles\default\attributes.xml");
+                string steamname = "Hello im a steam name"; //SET YOUR STEAM NAME!!
+                string huntfolder = @"D:\Steam\steamapps\common\Hunt Showdown\user\profiles\default\attributes.xml"; //SET YOUR HUNT SHOWDOWN ATTRIBUTES XML FILE PATH HERE
+
+                doc.Load(huntfolder); 
+                
 
                 foreach (XmlNode node in doc.DocumentElement)
                 {
 
-                    if (node.Attributes[1].Value.Contains("〩Saya〩"))
+                    if (node.Attributes[1].Value.Contains(steamname)) 
                     {
                         //there are multiple mmr values for the local player inside the attributes.xml, because they are logged after each round 
                         //and idfk which one the last logged value is so im just gonna take the first (All values fit the mmr bracket)
@@ -52,6 +56,8 @@ namespace HuntStats
                         break;
 
                     }
+                    
+
                 }
                 foreach (XmlNode node in doc.DocumentElement)
                 {

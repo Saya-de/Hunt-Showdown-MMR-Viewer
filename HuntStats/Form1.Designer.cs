@@ -40,7 +40,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Orbitron", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(16, 26);
+            this.label1.Location = new System.Drawing.Point(20, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 15);
             this.label1.TabIndex = 0;
@@ -52,7 +52,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Orbitron", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(62, 26);
+            this.label2.Location = new System.Drawing.Point(62, 27);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 15);
             this.label2.TabIndex = 1;
@@ -67,7 +67,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button2.Location = new System.Drawing.Point(23, 42);
+            this.button2.Location = new System.Drawing.Point(23, 43);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(74, 21);
             this.button2.TabIndex = 3;
@@ -82,7 +82,7 @@
             this.topmostbox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.topmostbox.Font = new System.Drawing.Font("Microsoft PhagsPa", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.topmostbox.ForeColor = System.Drawing.Color.White;
-            this.topmostbox.Location = new System.Drawing.Point(19, 4);
+            this.topmostbox.Location = new System.Drawing.Point(19, 6);
             this.topmostbox.Name = "topmostbox";
             this.topmostbox.Size = new System.Drawing.Size(86, 19);
             this.topmostbox.TabIndex = 4;
@@ -94,7 +94,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(120, 77);
+            this.ClientSize = new System.Drawing.Size(120, 68);
             this.Controls.Add(this.topmostbox);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
